@@ -21,7 +21,7 @@ export class ListaDeCompraService {
     const item: Item = {
       id: id,
       nome: nomeDoItem,
-      data: new Date().toLocaleDateString('pt-BR'),
+      data: new Date().toLocaleString('pt-BR'),
       comprado: false
     };
     return item;
